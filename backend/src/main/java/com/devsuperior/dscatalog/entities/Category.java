@@ -54,13 +54,10 @@ public class Category implements Serializable {
 	public void setName(String name) {
 		this.name = name;
 	}
-
 	
 	public Instant getCreatedAt() {
 		return createdAt;
 	}
-
-
 
 	public Instant getUpdatedAt() {
 		return updatedAt;
@@ -101,7 +98,5 @@ public class Category implements Serializable {
 			return false;
 		return true;
 	}	
-    
-    
 			
 }
